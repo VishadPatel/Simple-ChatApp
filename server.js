@@ -56,5 +56,5 @@ mongoose.connect(dbUrl, (error)=>{
 
 const server = http.listen(8000,()=>{
 	console.log("Server is listening on :" + server.address().port);
-	//console.log(server);
+	console.log("Now it is running");
 });
